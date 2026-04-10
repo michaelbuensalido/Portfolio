@@ -113,33 +113,26 @@ export default function Portfolio() {
               </h2>
             </div>
             <div className="tech-category">
-              <h3 className="category-title">Frontend Development</h3>
+              <h3 className="category-title">Frontend</h3>
               <div className="tag-group">
                 <span className="tag">HTML5</span>
                 <span className="tag">CSS3</span>
                 <span className="tag">JavaScript</span>
                 <span className="tag">TypeScript</span>
-                <span className="tag">Responsive Web Design</span>
-                <span className="tag">Component-Based UI</span>
-              </div>
-            </div>
-
-            <div className="tech-category">
-              <h3 className="category-title">Frameworks & Libraries</h3>
-              <div className="tag-group">
-                <span className="tag">Tailwind CSS</span>
-                <span className="tag">Shadcn</span>
                 <span className="tag">React</span>
                 <span className="tag">Next.js</span>
-                <span className="tag">Django</span>
+                <span className="tag">Tailwind CSS</span>
+                <span className="tag">Shadcn</span>
               </div>
             </div>
 
             <div className="tech-category">
-              <h3 className="category-title">Backend & Database</h3>
+              <h3 className="category-title">Backend</h3>
               <div className="tag-group">
                 <span className="tag">Python</span>
                 <span className="tag">CRUD Operations</span>
+                <span className="tag">REST</span>
+                <span className="tag">Django</span>
                 <span className="tag">MySQL</span>
               </div>
             </div>
@@ -148,16 +141,9 @@ export default function Portfolio() {
               <h3 className="category-title">Tools & Workflow</h3>
               <div className="tag-group">
                 <span className="tag">Git & GitHub</span>
-                <span className="tag">Visual Studio Code</span>
+                <span className="tag">Zapier</span>
                 <span className="tag">Figma</span>
                 <span className="tag">Chrome DevTools</span>
-              </div>
-            </div>
-
-            <div className="tech-category">
-              <h3 className="category-title">Automation</h3>
-              <div className="tag-group">
-                <span className="tag">Zapier</span>
               </div>
             </div>
           </section>
