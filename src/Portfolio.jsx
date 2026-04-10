@@ -10,11 +10,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { PiFlask } from "react-icons/pi";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { FaSun, FaMoon } from "react-icons/fa";
-import {
-  FaGithub,
-  FaFacebookMessenger,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaGithub, FaFacebookMessenger, FaInstagram } from "react-icons/fa";
 import { GoPaperclip } from "react-icons/go";
 import { MdPhoneInTalk } from "react-icons/md";
 
@@ -56,6 +52,10 @@ export default function Portfolio() {
           </div>
 
           <div className="action-buttons">
+            <a className="btn btn-black" href="tel:+6586955055">
+              <MdPhoneInTalk className="contact-icon" />
+              Let's Talk
+            </a>
             <a
               className="btn btn-white"
               href="mailto:johnbuensalido145@gmail.com"
@@ -79,17 +79,28 @@ export default function Portfolio() {
             </h2>
 
             <p className="text-content">
-            Computing Science student at Coventry University with hands-on experience in frontend development, backend systems, UI/UX design, and workflow automation. Strong foundation in HTML, CSS, JavaScript, TypeScript, React, Python, Django, Tailwind CSS, and MySQL, with the ability to build full-stack web applications.
+              Computing Science student at Coventry University with hands-on
+              experience in frontend development, backend systems, UI/UX design,
+              and workflow automation. Strong foundation in HTML, CSS,
+              JavaScript, TypeScript, React, Python, Django, Tailwind CSS, and
+              MySQL, with the ability to build full-stack web applications.
             </p>
             <p className="text-content">
-            Developed multiple projects including an Equipment Rental Management System (full-stack) and an award-winning e-commerce platform (FCU University Enterprise Online Shop). Experienced in building AI-powered automation workflows, including auto-reply email systems to improve operational efficiency and communication processes.
+              Developed multiple projects including an Equipment Rental
+              Management System (full-stack) and an award-winning e-commerce
+              platform (FCU University Enterprise Online Shop). Experienced in
+              building AI-powered automation workflows, including auto-reply
+              email systems to improve operational efficiency and communication
+              processes.
             </p>
-           
+
             <p className="text-content">
-          Passionate about developing scalable, user-centered applications and continuously improving through self-learning, real-world projects, and modern development practices. Seeking opportunities to contribute to web development projects and grow as a software developer.
+              Passionate about developing scalable, user-centered applications
+              and continuously improving through self-learning, real-world
+              projects, and modern development practices. Seeking opportunities
+              to contribute to web development projects and grow as a software
+              developer.
             </p>
-
-
           </section>
 
           {/* TECH STACK */}
@@ -262,11 +273,15 @@ export default function Portfolio() {
               </h3>
 
               <div className="connect-item">
-              Strengthen my full-stack development and UI/UX skills by building user-centered and scalable web applications, while exploring automation to enhance efficiency and user experience.
+                Strengthen my full-stack development and UI/UX skills by
+                building user-centered and scalable web applications, while
+                exploring automation to enhance efficiency and user experience.
               </div>
 
               <div className="connect-item">
-              Gain practical experience through real-world projects, improving my knowledge in backend development, databases, and testing as I grow as a developer.
+                Gain practical experience through real-world projects, improving
+                my knowledge in backend development, databases, and testing as I
+                grow as a developer.
               </div>
             </div>
 
