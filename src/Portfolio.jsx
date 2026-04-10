@@ -85,21 +85,22 @@ export default function Portfolio() {
               JavaScript, TypeScript, React, Python, Django, Tailwind CSS, and
               MySQL, with the ability to build full-stack web applications.
             </p>
+
             <p className="text-content">
-              Developed multiple projects including an Equipment Rental
-              Management System (full-stack) and an award-winning e-commerce
-              platform (FCU University Enterprise Online Shop). Experienced in
-              implementing AI-powered automation workflows using Zapier,
-              integrating email triggers and automated responses to enhance
-              efficiency and reduce manual tasks.
+              Developed multiple projects, including a full-stack Equipment
+              Rental Management System featuring authentication, CRUD
+              operations, and RESTful API integration with MySQL, enabling
+              efficient client-server data flow. Also built an award-winning
+              e-commerce platform (FCU University Enterprise Online Shop) with
+              responsive UI and dynamic product management.
             </p>
 
             <p className="text-content">
-              Passionate about developing scalable, user-centered applications
-              and continuously improving through self-learning, real-world
-              projects, and modern development practices. Seeking opportunities
-              to contribute to web development projects and grow as a software
-              developer.
+              Passionate about building user-centered applications and
+              continuously improving through real-world projects and modern
+              development practices. Currently seeking opportunities to
+              contribute to frontend or full-stack development teams and grow as
+              a software developer.
             </p>
           </section>
 
@@ -119,7 +120,6 @@ export default function Portfolio() {
                 <span className="tag">JavaScript</span>
                 <span className="tag">TypeScript</span>
                 <span className="tag">Responsive Web Design</span>
-                <span className="tag">Tailwind CSS</span>
                 <span className="tag">Component-Based UI</span>
               </div>
             </div>
@@ -127,18 +127,19 @@ export default function Portfolio() {
             <div className="tech-category">
               <h3 className="category-title">Frameworks & Libraries</h3>
               <div className="tag-group">
+                <span className="tag">Tailwind CSS</span>
+                <span className="tag">Shadcn</span>
                 <span className="tag">React</span>
                 <span className="tag">Django</span>
-                <span className="tag">Shadcn</span>
               </div>
             </div>
 
             <div className="tech-category">
               <h3 className="category-title">Backend & Database</h3>
               <div className="tag-group">
-                <span className="tag">MySQL</span>
                 <span className="tag">Python</span>
                 <span className="tag">CRUD Operations</span>
+                <span className="tag">MySQL</span>
               </div>
             </div>
 
@@ -185,10 +186,12 @@ export default function Portfolio() {
               <div className="exp-item">
                 <div className="exp-dot"></div>
                 <div className="exp-content">
-                  <h3 className="exp-title">Web Design & UI/UX Practice</h3>
+                  <h3 className="exp-title">UI/UX Design Practice</h3>
                   <p className="exp-company">
-                    Practicing UI/UX principles, responsive design, and
-                    interactive animations with Figma, and Framer.
+                    Designed and prototyped user interfaces using Figma and
+                    Framer, focusing on responsive design, usability, and modern
+                    interaction patterns. Translated design concepts into
+                    functional frontend components.
                   </p>
                 </div>
                 <span className="exp-year">2026</span>
@@ -211,11 +214,13 @@ export default function Portfolio() {
               <div className="exp-item">
                 <div className="exp-dot"></div>
                 <div className="exp-content">
-                  <h3 className="exp-title">AI Email Automation with Zapier</h3>
+                  <h3 className="exp-title">AI Email Automation Workflow</h3>
                   <p className="exp-company">
-                    Developed an automation workflow that detects incoming
-                    emails and generates AI-based auto-replies, improving
-                    response time and streamlining communication processes.
+                    Developed an automated email response system using Zapier,
+                    integrating triggers and AI-generated replies to reduce
+                    manual workload and improve response efficiency. Streamlined
+                    communication workflows for faster handling of incoming
+                    messages.
                   </p>
                 </div>
                 <span className="exp-year">2024</span>
@@ -227,50 +232,17 @@ export default function Portfolio() {
                     FCU University Enterprise Online Shop
                   </h3>
                   <p className="exp-company">
-                    E-commerce platform for university merchandise and supplies
-                  </p>
-                </div>
-                <span className="exp-year">2023</span>
-              </div>
-              {/* TECH STACK */}
-              <div className="exp-item">
-                <div className="exp-dot"></div>
-                <div className="exp-content">
-                  <h3 className="exp-title">
-                    Tech Stack & Programming Experience
-                  </h3>
-                  <p className="exp-company">
-                    HTML5, CSS3, Tailwind CSS, JavaScript, Python, Django, MySQL
+                    Developed an e-commerce platform with responsive UI and
+                    dynamic product management features. Implemented frontend
+                    components for product display, user interaction, and basic
+                    transaction flow, contributing to an award-winning
+                    university project.
                   </p>
                 </div>
                 <span className="exp-year">2023</span>
               </div>
 
               {/* CERTIFICATION */}
-
-              {/* FOUNDATIONS */}
-              <div className="exp-item">
-                <div className="exp-dot"></div>
-                <div className="exp-content">
-                  <h3 className="exp-title">Programming Foundations</h3>
-                  <p className="exp-company">
-                    Self-learning, online courses, mini-projects
-                  </p>
-                </div>
-                <span className="exp-year">2022</span>
-              </div>
-
-              {/* START */}
-              <div className="exp-item">
-                <div className="exp-dot"></div>
-                <div className="exp-content">
-                  <h3 className="exp-title">
-                    Hello World! <PiHandWaving className="wave-icon" />
-                  </h3>
-                  <p className="exp-company">Wrote my first line of code</p>
-                </div>
-                <span className="exp-year">2021</span>
-              </div>
             </div>
           </section>
         </div>
