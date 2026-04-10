@@ -175,7 +175,7 @@ export default function Portfolio() {
               <div className="exp-item">
                 <div className="exp-dot active-dot"></div>
                 <div className="exp-content">
-                  <h3 className="exp-title">BS Computing Science - 2nd Year</h3>
+                  <h3 className="exp-title">BS Computing Science </h3>
                   <p className="exp-company">Coventry University</p>
                 </div>
                 <span className="exp-year">2026</span>
