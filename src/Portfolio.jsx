@@ -211,6 +211,18 @@ export default function Portfolio() {
               <div className="exp-item">
                 <div className="exp-dot"></div>
                 <div className="exp-content">
+                  <h3 className="exp-title">AI Email Automation with Zapier</h3>
+                  <p className="exp-company">
+                    Developed an automation workflow that detects incoming
+                    emails and generates AI-based auto-replies, improving
+                    response time and streamlining communication processes.
+                  </p>
+                </div>
+                <span className="exp-year">2024</span>
+              </div>
+              <div className="exp-item">
+                <div className="exp-dot"></div>
+                <div className="exp-content">
                   <h3 className="exp-title">
                     FCU University Enterprise Online Shop
                   </h3>
@@ -218,7 +230,7 @@ export default function Portfolio() {
                     E-commerce platform for university merchandise and supplies
                   </p>
                 </div>
-                <span className="exp-year">2024</span>
+                <span className="exp-year">2023</span>
               </div>
               {/* TECH STACK */}
               <div className="exp-item">
