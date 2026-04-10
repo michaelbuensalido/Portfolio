@@ -130,6 +130,7 @@ export default function Portfolio() {
                 <span className="tag">Tailwind CSS</span>
                 <span className="tag">Shadcn</span>
                 <span className="tag">React</span>
+                <span className="tag">Next.js</span>
                 <span className="tag">Django</span>
               </div>
             </div>
