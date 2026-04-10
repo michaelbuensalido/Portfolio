@@ -89,9 +89,9 @@ export default function Portfolio() {
               Developed multiple projects including an Equipment Rental
               Management System (full-stack) and an award-winning e-commerce
               platform (FCU University Enterprise Online Shop). Experienced in
-              building AI-powered automation workflows, including auto-reply
-              email systems to improve operational efficiency and communication
-              processes.
+              implementing AI-powered automation workflows using Zapier,
+              integrating email triggers and automated responses to enhance
+              efficiency and reduce manual tasks.
             </p>
 
             <p className="text-content">
