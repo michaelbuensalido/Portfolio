@@ -17,7 +17,14 @@ import { MdPhoneInTalk } from "react-icons/md";
 import { PiHandWaving } from "react-icons/pi";
 
 export default function Portfolio() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedPreference = localStorage.getItem("themed");
+    if (!savedPreference) {
+      const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      return isDark ? true : false;
+    }
+    return false;
+  });
 
   return (
     <div className={darkMode ? "container dark-mode" : "container"}>
