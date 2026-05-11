@@ -12,6 +12,7 @@ body {
     Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 h2,
 h3 {
@@ -32,6 +33,13 @@ h3 {
     background-color 0.3s ease,
     color 0.3s ease;
   position: relative;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 .container.dark-mode {
@@ -246,6 +254,14 @@ h3 {
   gap: 20px;
 }
 
+.main-bottom-row {
+  max-width: 1400px;
+  margin: 0 auto 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
 /* CARD */
 .card {
   background: white;
@@ -307,6 +323,20 @@ h3 {
 
 .text-content:last-child {
   margin-bottom: 0;
+}
+
+.highlights-list {
+  list-style: disc;
+  padding-left: 18px;
+  color: #3e4042;
+  display: grid;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.container.dark-mode .highlights-list {
+  color: #b1bac4;
 }
 
 /* TECH STACK */
@@ -646,12 +676,13 @@ h3 {
 
 .project-item,
 .cert-item {
-  background: #21262d;
+  background: #3b434f;
   padding: 14px;
   border-radius: 8px;
   margin-bottom: 12px;
   cursor: pointer;
   transition: all 0.2s ease;
+  text-decoration: none;
 }
 
 .project-item:hover,
@@ -664,12 +695,14 @@ h3 {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 4px;
+
 }
 
 .project-desc,
 .cert-org {
   font-size: 13px;
   opacity: 0.8;
+
 }
 .projects-cert-grid {
   max-width: 1200px;
@@ -946,7 +979,7 @@ h3 {
 /* CONNECT GRID */
 .connect-grid {
   max-width: 1200px;
-  margin: 25px auto;
+  margin: 0px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 22px;
@@ -1023,7 +1056,7 @@ h3.connect-title {
 
 /* 🧱 Wrap Inside a Proper Card Layout */
 .connect-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 15px auto 40px;
   padding: 30px;
 }

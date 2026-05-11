@@ -10,7 +10,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { PiFlask } from "react-icons/pi";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { FaSun, FaMoon } from "react-icons/fa";
-import { FaGithub, FaFacebookMessenger, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaFacebookMessenger, FaInstagram, FaFolderOpen } from "react-icons/fa";
 import { GoPaperclip } from "react-icons/go";
 import { MdPhoneInTalk } from "react-icons/md";
 
@@ -180,12 +180,14 @@ export default function Portfolio() {
               <div className="exp-item">
                 <div className="exp-dot"></div>
                 <div className="exp-content">
-                  <h3 className="exp-title">UI/UX Design Practice</h3>
+                  <h3 className="exp-title">Stoke</h3>
                   <p className="exp-company">
-                    Designed and prototyped user interfaces using Figma and
-                    Framer, focusing on responsive design, usability, and modern
-                    interaction patterns. Translated design concepts into
-                    functional frontend components.
+                    Stoke is a modern, full-featured web application designed to
+                    streamline your culinary life. Built with a focus on
+                    aesthetic excellence and seamless user experience, Stoke
+                    combines recipe discovery, intelligent meal planning, and
+                    automated shopping list generation into a single, cohesive
+                    platform.
                   </p>
                 </div>
                 <span className="exp-year">2026</span>
@@ -240,6 +242,77 @@ export default function Portfolio() {
             </div>
           </section>
         </div>
+      </div>
+
+      <div className="main-bottom-row">
+        <section className="card cert-card">
+          <div className="section-header">
+            <h2 className="section-title">Certifications</h2>
+          </div>
+
+          <div className="cert-list">
+            <a
+              className="cert-item"
+              href="https://www.udemy.com/certificate/UC-5a47ba8f-905b-43cf-92ef-72cf768013ea/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 className="cert-title">Javascript Developer Certification</h3>
+              <p className="cert-org">Udemy</p>
+            </a>
+          </div>
+        </section>
+
+        <section className="card projects-card">
+          <div className="section-header">
+            <h2 className="section-title">
+
+              Recent Projects
+            </h2>
+          </div>
+
+          <div className="project-list">
+            <a
+              className="project-item"
+              href="https://stoke-meal-planner.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 className="project-title">Stoke</h3>
+              <p className="project-desc">
+                Recipe discovery, meal planning, and shopping list generation.
+              </p>
+              <span className="project-tag">https://stoke-meal-planner.netlify.app</span>
+            </a>
+
+            <a
+              className="project-item"
+              href="https://github.com/Oriiswan/Equipment-Rental-Management-System"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 className="project-title">Equipment Rental System</h3>
+              <p className="project-desc">
+                Full-stack rental management with auth, CRUD, and REST API.
+              </p>
+              <span className="project-tag">https://github.com/ERMS </span>
+            </a>
+
+          
+            <a
+              className="project-item"
+
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 className="project-title">FCU Online Shop</h3>
+              <p className="project-desc">
+                Award-winning e-commerce platform with responsive UI.
+              </p>
+              <span className="project-tag">React</span>
+            </a>
+          </div>
+        </section>
       </div>
 
       <div className="connect-wrapper">
