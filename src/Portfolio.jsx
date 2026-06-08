@@ -10,7 +10,12 @@ import { HiOutlineMail } from "react-icons/hi";
 import { PiFlask } from "react-icons/pi";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { FaSun, FaMoon } from "react-icons/fa";
-import { FaGithub, FaFacebookMessenger, FaInstagram, FaFolderOpen } from "react-icons/fa";
+import {
+  FaGithub,
+  FaFacebookMessenger,
+  FaInstagram,
+  FaFolderOpen,
+} from "react-icons/fa";
 import { GoPaperclip } from "react-icons/go";
 import { MdPhoneInTalk } from "react-icons/md";
 
@@ -176,6 +181,22 @@ export default function Portfolio() {
                 <span className="exp-year">2026</span>
               </div>
 
+              <div className="exp-item">
+                <div className="exp-dot"></div>
+                <div className="exp-content">
+                  <h3 className="exp-title">
+                    Reliable Engineering Construction
+                  </h3>
+                  <p className="exp-company">
+                    Developed a responsive corporate website for an engineering
+                    and construction company, focusing on modern UI design, user
+                    experience, and clear presentation of the company's services
+                    and projects.
+                  </p>
+                </div>
+                <span className="exp-year">2026</span>
+              </div>
+
               {/* WEB DESIGN & UI/UX */}
               <div className="exp-item">
                 <div className="exp-dot"></div>
@@ -265,10 +286,7 @@ export default function Portfolio() {
 
         <section className="card projects-card">
           <div className="section-header">
-            <h2 className="section-title">
-
-              Recent Projects
-            </h2>
+            <h2 className="section-title">Recent Projects</h2>
           </div>
 
           <div className="project-list">
@@ -282,7 +300,9 @@ export default function Portfolio() {
               <p className="project-desc">
                 Recipe discovery, meal planning, and shopping list generation.
               </p>
-              <span className="project-tag">https://stoke-meal-planner.netlify.app</span>
+              <span className="project-tag">
+                https://stoke-meal-planner.netlify.app
+              </span>
             </a>
 
             <a
@@ -298,10 +318,8 @@ export default function Portfolio() {
               <span className="project-tag">https://github.com/ERMS </span>
             </a>
 
-          
             <a
               className="project-item"
-
               target="_blank"
               rel="noopener noreferrer"
             >
