@@ -60,7 +60,7 @@ export default function Portfolio() {
           </p>
 
           <div className="job-title">
-            BSCS Student / Aspiring Web Developer & Software Engineer
+            BSCS Student / Web Developer & Software Engineer
           </div>
 
           <div className="action-buttons">
